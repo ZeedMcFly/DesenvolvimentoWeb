@@ -13,7 +13,31 @@
 </head>
 {% block body %}
 <body>
-    Site no Ar 
+
+    <h1>Site no Ar</h1>
+    {% block formulario %}
+    <form method="POST">
+     {{ form.csrf_token}}
+
+
+        {{form.email.label()}}
+        {{form.email()}}
+        
+
+        {{form.senha.label()}}
+        {{form.senha()}}
+
+
+        {{form.botao_confirmacao}}
+
+
+    </form>
+    {%endblock%}
+
+
+
 </body>
+
+
 {% endblock %}
 </html>
