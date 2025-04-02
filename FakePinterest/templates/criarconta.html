@@ -1,32 +1,27 @@
-{% extends "homepage.html"%}
+{% extends "homepage.html" %}
 
-
-{% block titulo%}
-        
-        Criar Usuario
-
+{% block titulo %}
+CriarConta - FakePinterest
 {% endblock %}
 
 {% block formulario %}
+
 <form method="POST">
-    {{ form.csrf_token}}
+    {{ form.csrf_token }}
+     
+    {{ form.email.label() }}
+    {{ form.email() }}
 
+    {{ form.username.label() }}
+    {{ form.username() }}
 
-       {{form.email.label()}}
-       {{form.email()}}
+    {{ form.senha.label() }}
+    {{ form.senha() }}
 
-       {{form.username.label()}}
-       {{form.username()}}
-       
-       {{form.senha.label()}}
-       {{form.senha()}}
+    {{ form.confirmacao_senha.label() }}
+    {{ form.confirmacao_senha() }}
 
-       {{form.confirmacao_senha.label()}}
-       {{form.confirmacao_senha()}}
+    {{ form.botao_confirmacao() }}
 
-       {{form.botao_confirmacao}}
-
-
-   </form>
-
+</form>
 {% endblock %}
