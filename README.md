@@ -93,7 +93,7 @@ python main.py
 http://localhost:5000
 ```
 
-## 📬 Contato
+##  Autor  
 
-Caso tenha dúvidas ou sugestões, entre em contato pelo GitHub ou abra uma *issue*.
----
+ **Desenvolvido por Luiz da Silva Oliveira (ZeedMcFly)**  
+Automatização para otimizar processos de vendas e gestão de dados.  
