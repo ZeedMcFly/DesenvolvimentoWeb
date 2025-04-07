@@ -96,4 +96,4 @@ http://localhost:5000
 ##  Autor  
 
  **Desenvolvido por Luiz da Silva Oliveira (ZeedMcFly)**  
-Automatização para otimizar processos de vendas e gestão de dados.  
+clone do site Pinterest
