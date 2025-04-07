@@ -6,7 +6,7 @@ Este é um projeto de clone simplificado do Pinterest, desenvolvido em **Python*
 ## 🚀 Funcionalidades
 
 - Cadastro e login de usuários
-- Publicação de imagens com descrição
+- Publicação de imagens
 - Visualização de imagens em um feed
 - Listagem de usuários
 - Upload e armazenamento local de imagens
@@ -58,8 +58,7 @@ Pinterest/
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/pinterest-clone.git
-cd pinterest-clone
+git clone https://github.com/ZeedMcFly/DesenvolvimentoWeb.git
 ```
 
 2. Crie e ative um ambiente virtual:
@@ -76,37 +75,25 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 
-4. Execute o projeto:
+4. Crie o banco de dados:
+
+```bash
+python criar_banco.py
+```
+
+5. Execute o projeto:
 
 ```bash
 python main.py
 ```
 
-5. Acesse no navegador:
+6. Acesse no navegador:
 
 ```
 http://localhost:5000
 ```
 
-## ✅ Requisitos do `requirements.txt`
-
-Seu projeto depende principalmente dos seguintes pacotes:
-
-- Flask
-- Flask-SQLAlchemy
-- Flask-Migrate
-
-> Todos os pacotes estão listados no arquivo `requirements.txt`
-
-## 📌 Observações
-
-- As imagens postadas são salvas localmente em `static/imagens`.
-- O projeto usa um banco SQLite (`app.db`), ideal para ambientes de teste e desenvolvimento.
-
----
-
 ## 📬 Contato
 
 Caso tenha dúvidas ou sugestões, entre em contato pelo GitHub ou abra uma *issue*.
-
 ---
